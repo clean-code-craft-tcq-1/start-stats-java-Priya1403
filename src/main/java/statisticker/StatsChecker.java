@@ -38,14 +38,11 @@ public class StatsChecker {
 				if (alerter instanceof EmailAlert) {
 					alerter.emailSent = true;
 				}
-				if (alerter instanceof IAlerter) {
+				if (alerter instanceof LEDAlert) {
 					alerter.ledGlows = true;
 				}
 
 			}
-
-			// alert.emailSent = true;
-			// alert2.ledGlows = true;
 
 		}
 
